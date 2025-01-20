@@ -1,0 +1,1110 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (X11; U; SunOS 5.5.1 sun4u) [Netscape]">
+   <meta name="Author" content="Keith Conrad">
+   <meta name="Description" content="expositions">
+   <title>Expository papers by K. Conrad</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#0000EE" vlink="#551A8B" alink="#FF0000">
+
+
+<CENTER>
+<H1>Expository papers</H1>
+</CENTER>
+
+<P>
+
+These were written up for various reasons: course handouts, notes to 
+accompany a talk for a (mathematically) general audience, 
+or for some other purpose 
+that I have since forgotten.  If you find typographical or 
+other errors in these files, or have comments, 
+please let me know. Files that are revised will be reposted
+without any indication that they have been changed (sorry). 
+
+
+<p>
+
+
+
+<table border="1" cellpadding = "8">
+<tr>
+<td colspan="4" align="center">
+<b>Group Theory</b>
+</tr>
+</td>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/sign.pdf">
+Sign of permutations 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/15puzzle.pdf">
+The Fifteen puzzle (and Rubik's cube) 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/order.pdf">
+Order of elements
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/cyclicgp.pdf">
+Subgroups of cyclic groups
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/cyclicFp.pdf">
+Cyclicity of (<b>Z</b>/(<i>p</i>))<sup>&times;</sup> 
+</a> 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/relativity.pdf">
+Relativistic addition and group theory
+</a>
+</td> 
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/coset.pdf">
+Cosets 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/conjclass.pdf">
+Conjugation 
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/dihedral.pdf">
+Dihedral groups I
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/dihedral2.pdf">
+Dihedral groups II
+</a>
+</td>
+<td align="center">
+Isometry group of 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/isometrycpx.pdf">the plane 
+</a> (via complex numbers) 
+</td>
+<td align="center">
+Isometry group of 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/isometryRn.pdf">
+<b>R</b><sup><i>n</i></sup>
+</td>
+</tr>
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/cauchypf.pdf">
+Proof
+</a> of Cauchy's theorem
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/cauchyapp.pdf">
+Applications 
+</a> of Cauchy's theorem
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/gpaction.pdf">
+Group actions
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/transitive.pdf">
+Transitive group actions
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/genset.pdf">
+Generating sets 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/A4noindex2.pdf">
+No subgroup of index 2 in <i>A</i><sub>4</sub>
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/group12.pdf">
+Groups of order 12 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/groupsp3.pdf">
+Groups of order <i>p</i><sup>3</sup>
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/genquat.pdf">
+Generalized Quaternions
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/splittinggp.pdf">
+Splitting of short exact sequences for groups 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/SL(2,R).pdf">
+SL<sub>2</sub>(<b>R</b>)
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/SL(2,Z).pdf">
+SL<sub>2</sub>(<b>Z</b>)
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/sylowpf.pdf">
+Proof
+</a> of Sylow theorems
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/sylowapp.pdf">
+Applications 
+</a> of Sylow theorems
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/sylowmore.pdf">
+More
+</a> on Sylow theorems 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/subgpseries1.pdf">
+Subgroup series
+</a>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/charthy.pdf">
+Characters of finite abelian groups
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/Ansimple.pdf">
+Simplicity of <i>A</i><sub><i>n</i></sub>
+</a> 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/schurzass.pdf">
+Schur-Zassenhaus theorem 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/grouptheory/irrepdeg.pdf">
+The degree may not divide the size of the group
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td colspan="4" align="center">
+<b>Ring Theory</b>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ringtheory/divthm.pdf">
+Division theorem in <b>Z</b> and <b>R</b>[<i>T</i>]
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ringtheory/ringdefs.pdf">
+Standard definitions 
+</a>  
+</td>
+<td align="center">
+Remarks about 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ringtheory/euclideanrk.pdf">
+Euclidean domains 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/symmfunction.pdf">
+Symmetric polynomials
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ringtheory/ufdapp.pdf">
+Applications of unique factorization 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ringtheory/primvector.pdf">
+Primitive vectors and SL<sub><i>n</i></sub>
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/zorn1.pdf">
+Zorn's lemma
+</a>
+(in group theory, ring theory, and linear algebra)
+</td>
+<td align="center">
+</td>
+</tr>
+
+
+<tr>
+<td colspan="4" align="center">
+<b>Linear/Multilinear algebra</b>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/dimension.pdf">
+Dimension 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/diagonalizable.pdf">
+Minimal polynomial
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/simulcomm.pdf">
+Simultaneous commutativity of operators 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/potdiagonalizable.pdf">
+Potentially diagonalizable operators
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/semisimple.pdf">
+Semisimple operators
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/fundthmalglinear.pdf">
+The fundamental theorem of algebra via linear algebra
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/diffeqdim.pdf">
+Differential equations and linear algebra
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/matrixnorm.pdf">
+The norm of a matrix
+</a>
+</td>
+</tr>
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/pfister.pdf">
+Pfister's theorem on sums of squares
+</a>
+</td>
+<td align="center">
+Hurwitz's theorem on sums of squares
+(by 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/hurwitzlinear.pdf">
+linear algebra</a>)
+</td>
+<td align="center">
+Hurwitz's theorem on sums of squares
+(by 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/hurwitzrepnthy.pdf">
+representation theory</a>)
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/sumsquareQF(T).pdf">
+Sums of squares in <b>Q</b> and <i>F</i>(<i>T</i>)
+</a>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/dualmod.pdf">
+Dual modules
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/univid.pdf">
+Universal Identities I
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/univid2.pdf">
+Universal Identities II
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/splittingmodules.pdf">
+Splitting of short exact sequences for modules 
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf">
+Tensor products I
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod2.pdf">
+Tensor products II
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/complexification.pdf">
+Complexification
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/extmod.pdf">
+Exterior Powers
+</a>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/extmodbaseextn.pdf">
+Base Extension and Exterior Powers 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/alignedbases.pdf">
+Related aligned bases
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/stablyfree.pdf">
+A nonfree stably free module
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/bilinearform.pdf">
+Bilinear forms
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/descentPythag.pdf">
+Orthogonal group of <i>x</i><sup>2</sup> + <i>y</i><sup>2</sup> - <i>z</i><sup>2</sup>
+</a>
+</td>
+<td align="center">
+</td>
+<td align="center">
+</td>
+<td align="center">
+</td>
+
+</a>
+</td>
+</tr>
+
+<tr>
+<td colspan="4" align="center">
+<b>Fields and Galois theory</b>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/rootirred.pdf">
+Roots and irreducible polynomials 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/finitefield.pdf">
+Polynomials over a finite field
+</a></td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/tracenorm.pdf">
+Trace and norm 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/separable1.pdf">
+Separable extensions 
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/perfect.pdf">
+Perfect fields
+</a> 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/algclosure.pdf">
+Algebraic closures
+</a></td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/zorn2.pdf">
+Zorn's lemma
+</a> (with fields)
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/separable2.pdf">
+Separable extensions and tensor products 
+</a> 
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/splittingisom.pdf">
+Splitting fields and tensor products 
+</a> 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/galoiscorr.pdf">
+Galois correspondence
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/galoisappn.pdf">
+Applications of Galois theory
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/cubicquartic.pdf">
+Galois groups of cubics and quartics not in characteristic 2
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/cubicquarticchar2.pdf">
+Galois groups of cubics and quartics allowing characteristic 2
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/galoisSnAn.pdf">
+Recognizing Galois groups <i>S<sub>n</sub></i> and <i>A<sub>n</sub></i>
+</a>
+</td>
+
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/cyclotomic.pdf">
+Cyclotomic extensions
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/artinschreier.pdf">
+Artin-Schreier theorem 
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/linearchar.pdf">
+Linear independence of characters
+</a> 
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/galoisdescent.pdf">
+Galois descent 
+</a>
+</td>
+<td align="center">
+</td>
+<td align="center">
+</td>
+</tr>
+
+
+<tr>
+<td colspan="4" align="center">
+<b>Elementary number theory</b>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/divgcd.pdf">
+Divisibilty and greatest common divisor
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/pythagtriple.pdf">
+Pythagorean triples
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/modarith.pdf">
+Modular arithmetic 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/universaldivtest.pdf">
+Universal divisibility test
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/fermattest.pdf">
+Fermat's compositeness test
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/eulerthm.pdf">
+Euler's theorem
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/heuristics.pdf">
+Heuristics for prime statistics  
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/analogypoly.pdf">
+Analogies between <b>Z</b> and <i>F</i>[<i>T</i>]
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/Zinotes.pdf">
+Gaussian integers
+</a>
+</td>
+<td align="center">
+Fermat's method of 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/descent.pdf">
+descent 
+</a> 
+</td>
+<td align="center">
+An example of 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/descentbyeuler.pdf">
+descent
+</a> by Euler
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/congnumber.pdf">
+Congruent number problem 
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/3squarearithprog.pdf">
+Arithmetic progressions of three squares
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/4squarearithprog.pdf">
+Arithmetic progressions of four squares 
+</a>
+</td>
+<td align="center">
+Quadratic reciprocity 
+in <a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/QRcharp.pdf">
+odd characteristic
+</a>
+</td>
+<td align="center">
+Quadratic reciprocity 
+in 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/QRchar2.pdf">
+characteristic 2
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/dirichleteuclid.pdf">
+Euclidean proofs of Dirichlet's theorem 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/Picksumofsq.pdf">
+Sums of two squares and lattices  
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/ugradnumthy/quadraticundergrad.pdf">
+Factoring in quadratic rings 
+</a>
+</td>
+<td align="center">
+</td>
+</tr>
+
+<tr>
+<td colspan="4" align="center">
+<b>Algebraic number theory</b>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+Examples of 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/mordelleqn1.pdf">
+Mordell's equation
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/quadraticgrad.pdf">
+Factoring in quadratic rings 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/idealfactor.pdf">
+Unique factorization of ideals
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/dedekindf.pdf">
+Factoring ideals after Dedekind
+</a>
+</td>
+</tr>
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/disc.pdf">
+Discriminants and ramified primes
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/totram.pdf">
+Totally ramified primes and Eisenstein polynomials 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/nopowerbasis.pdf">
+Rings of integers without a power basis 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/notfree.pdf">
+A non-free relative integral extension 
+</a>
+</td>
+</tr>
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/sl2classno.pdf">
+Ideal classes and SL<sub>2</sub>
+</a>
+</br>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/matrixconj.pdf">
+Ideal classes and matrix conjugation over <b>Z</b>
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/classgpex.pdf">
+Examples of class group calculations 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/different.pdf">
+The different ideal 
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/unittheorem.pdf">
+Dirichlet's unit theorem
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/chevalleyunit.pdf">
+Chevalley's unit theorem
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/frobeniuspf.pdf">
+Existence of Frobenius elements (d'apr&egrave;s Frobenius) 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/chebappn.pdf">
+Primes of degree 1 and congruence conditions 
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/carlitz.pdf">
+Carlitz extensions 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/hensel.pdf">
+Hensel's lemma
+</a>
+</td>
+<td align="center">
+Ostrowski's theorem for 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/ostrowskiQ(i).pdf">
+<b>Q</b>(<i>i</i>)
+</a>
+</td>
+<td align="center">
+Ostrowski for 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/ostrowskiF(T).pdf">
+<i>F</i>(<i>T</i>)
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+Ostrowski for 
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/ostrowski.pdf">
+number fields 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/Qw2.pdf">
+Invariants of the splitting field of a cubic, I
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/Qw3.pdf">
+Invariants of the splitting field of a cubic, II
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/Qw5.pdf">
+Invariants of the splitting field of a cubic, III
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/Qw6.pdf">
+Invariants of the splitting field of a cubic, IV
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/Qw7.pdf">
+Invariants of the splitting field of a cubic, V
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/kummer.pdf">
+Kummer's lemma
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/fltreg.pdf">
+Fermat's last theorem for regular primes 
+</a>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/cfthistory.pdf">
+History of class field theory
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/characterQ.pdf">
+The character group of <b>Q</b>
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/gradnumthy/loccptascoli.pdf">
+Local compactness of Pontryagin dual group 
+</a>
+</td>
+<td align="center">
+</td>
+</tr>
+
+
+
+
+<tr>
+<td colspan="4" align="center">
+<b>Analysis</b>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/fundthmalgcalculus.pdf">
+The fundamental theorem of algebra via multivariable calculus
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/growth.pdf">
+Orders of growth
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/sumest.pdf">
+Estimating growth of divergent series 
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/asymp.pdf">
+Asymptotic growth
+</a>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/stirling.pdf">
+Stirling's formula
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/probint.pdf">
+The Gaussian integral
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/diffunderint.pdf">
+Differentiation under the integral sign
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/series.pdf">
+Infinite series 
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/logarctan.pdf">
+The logarithm and arctangent
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/abelthm.pdf">
+Abel's theorem
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/contraction.pdf">
+The contraction mapping theorem
+</a>
+</td>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/entropypost.pdf">
+Probability distributions and maximum entropy 
+</a>
+</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<td align="center">
+<a href="http://www.math.uconn.edu/~kconrad/blurbs/analysis/lpspace.pdf">
+<i> L<sup>p</sup></i> spaces for 0 < <i> p</i> < 1 
+</a>
+</td>
+<td align="center">
+</td>
+<td align="center">
+</td>
+<td align="center">
+</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=790751; 
+var sc_partition=6; 
+var sc_security="2ae0f47b"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c7.statcounter.com/counter.php?sc_project=790751&amp;java=0&amp;security=2ae0f47b&amp;invisible=1" alt="web site hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+</body>
+</html>

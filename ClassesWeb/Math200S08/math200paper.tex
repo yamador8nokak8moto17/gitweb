@@ -1,0 +1,235 @@
+\documentclass[12pt,letterpaper]{amsart}
+\setlength{\oddsidemargin}{.0in}
+\setlength{\evensidemargin}{.0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{-.3in}
+\setlength{\headsep}{.20in}
+\setlength{\textheight}{9.in}
+\usepackage[leqno]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage[all]{xy}
+\usepackage{graphicx}
+
+
+%Here are some user-defined notations
+\newcommand{\RR}{\mathbf R}
+\newcommand{\CC}{\mathbf C}
+\newcommand{\ZZ}{\mathbf Z}
+\newcommand{\ZZn}[1]{\ZZ/{#1}\ZZ}
+\newcommand{\QQ}{\mathbf Q}
+\newcommand{\rr}{\mathbb R}
+\newcommand{\cc}{\mathbb C}
+\newcommand{\zz}{\mathbb Z}
+\newcommand{\zzn}[1]{\zz/{#1}\zz}
+\newcommand{\qq}{\mathbb Q}
+\newcommand{\calM}{\mathcal M}
+\newcommand{\latex}{\LaTeX}
+\newcommand{\tex}{\TeX}
+\newcommand{\dd}{{\rm d}}
+\newcommand{\sm}{\setminus} 
+
+
+%Here are commands with variable inputs 
+\newcommand{\intf}[1]{\int_a^b{#1}\,\dd{x}}
+\newcommand{\intfb}[3]{\int_{#1}^{#2}{#3}\,\dd{x}}
+\newcommand{\marginalfootnote}[1]{%
+        \footnote{#1}
+        \marginpar[\hfill{\sf\thefootnote}]{{\sf\thefootnote}}}
+\newcommand{\edit}[1]{\marginalfootnote{#1}}
+
+
+%Here are some user-defined operators
+\newcommand{\Tr}{\operatorname {Tr}}
+\newcommand{\GL}{\operatorname {GL}}
+\newcommand{\SL}{\operatorname {SL}}
+\newcommand{\Prob}{\operatorname {Prob}}
+\newcommand{\re}{\operatorname {Re}}
+\newcommand{\im}{\operatorname {Im}}
+
+
+%These commands deal with theorem-like environments (i.e., italic)
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{conjecture}[theorem]{Conjecture}
+
+%These deal with definition-like environments (i.e., non-italic)
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+%This numbers equations by section
+\numberwithin{equation}{section}
+
+
+\begin{document}
+
+
+\begin{titlepage}
+\title{Title Here}
+\author{Your Name}
+\date{Date Here}
+\maketitle
+
+\centerline{\Large Math 200}
+
+\hfill
+
+\centerline{\Large University of Connecticut}
+\thispagestyle{empty}
+\end{titlepage}
+\pagebreak
+
+
+
+\thispagestyle{empty}
+\tableofcontents
+
+
+\vfill
+
+
+
+\pagebreak
+ 
+\pagenumbering{arabic}
+
+%%%Start your work here. 
+
+\section{Introduction}\label{intro}
+
+
+In this file, edit the information between  
+\verb1\begin{titlepage}1 and \verb1\end{titlepage}1.
+Do {\it not} change the typesetting commands such as 
+\verb1\setlength1 at the top of the file, which 
+affect the size of the output.
+
+You might not want to use a table of  
+contents in your paper, 
+and in that case just 
+take out the line \verb1\tableofcontents1. (Better idea: place 
+a \verb1%1 at the front of the line.  This hides the line from 
+the \latex{} typesetting process without removing it.)
+Without a table of contents, you 
+should help the reader by summarizing the organization 
+of the paper at the end of your introduction.
+Anyway, write your paper between  
+\verb1\section{Introduction}\label{intro}1 and \verb1\end{document}1.
+Hint: if you need any \latex{} construction, an equation for example, 
+just find a similar one in one of the \latex{} files you have, 
+copy, paste and edit.  Or ask a math professor (the younger ones 
+all know \latex).
+
+In this section you should put an introduction.  
+Tell us what your topic is about, roughly, 
+and what you are going to do with it. 
+
+
+\section{Section 1}\label{sec1}
+
+Make the title of this section a little bit more descriptive than 
+the banal ``Section 1.'' 
+
+
+
+\section{Section 2}\label{sec2}
+
+Same deal as in the previous section. 
+
+
+\section{Section 3}\label{sec3}
+
+If you really need it, here is a third section.  
+You can generate as many as you need. 
+
+
+\appendix
+
+\section{Appendix stuff}\label{app1sec}
+
+Perhaps in the main part of your text there are some 
+long and boring calculations 
+whose appearance would interrupt the flow of ideas, or there is 
+something you want to 
+describe briefly but not get bogged down by further in the main 
+text of your paper.  If 
+further information 
+is nevertheless worthwhile, consider placing it in an appendix.  
+Here the numbering of equations and theorems gets an A attached to 
+reflect the location:
+
+\begin{theorem}
+The function $\sin x$ is the unique solution of the differential equation
+\begin{equation}\label{sineqn}
+\frac{\dd^2y}{\dd{x}^2} + y = 0
+\end{equation}
+satisfying the initial conditions $y(0) = 0$ and $y'(0) = 1$.
+\end{theorem}
+
+
+
+\section{More appendix stuff}
+
+It is doubtful that a $7\frac{1}{2}$ page paper should have a second appendix, 
+but here is one so you can see it.  All labels get slapped with a B. 
+
+\begin{conjecture}
+Papers of this length are unlikely to have a second appendix.
+\end{conjecture}
+
+\begin{proof}
+We argue by contradiction.  For instance, consider this paper as a base case. 
+It has a second appendix.  This is a contrapositive, or is it a converse? 
+Well, this proof makes no sense, but it does seem weird 
+anyway to be proving a conjecture 
+right after stating it.  Better luck next time.
+\end{proof}
+
+
+\begin{thebibliography}{5}
+
+\bibitem{gt}
+B. H. Gross and J. T. Tate, Commentary on algebra, pp.~335--336 in: 
+``A Century of Mathematics in America, Part II,'' Amer. Math. Soc., 
+Providence, 1989.
+
+\bibitem{irros}
+K. Ireland and M. Rosen, ``A Classical Introduction to Modern 
+Number Theory,'' 2nd ed., Springer-Verlag, New York, 1990.
+
+\bibitem{unabomber}
+T. J. Kaczynski, Another proof of Wedderburn's theorem, 
+{\it Amer. Math. Monthly} {\bf 71} (1964), 652--653.
+
+
+\bibitem{knus}
+M-A. Knus, A. Merkurjev, M. Rost, J-P. Tignol, 
+``The Book of Involutions,'' Amer. Math. Society, Providence, 1998.
+
+\bibitem{roquette}
+P. Roquette, Class field theory in characteristic $p$, its origin 
+and development, pp.~549--631 in: ``Class field theory -- its centenary 
+and prospect,'' Math. Soc. Japan, Tokyo, 2001.
+
+\bibitem{sloane}
+N. J. A. Sloane, On-line Encyclopedia of Integer Sequences, 
+{\tt http://www.research.att.com/$\sim$njas/ 
+sequences/}.
+
+\end{thebibliography}
+
+\end{document}
+
+
+
+
+
+
+
+
