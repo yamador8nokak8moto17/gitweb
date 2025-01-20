@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Damir D. Dzhafarov</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39759232-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-39759232-1');
+	</script>
+	<link id="main" rel="stylesheet" href="./css/main.css">
+	<link id="menu" rel="stylesheet" href="./css/menu-closed.css">
+	<script type="text/javascript">
+		function styleMenu(url) {
+			document.getElementById('menu').href = url;
+		}
+
+		function openMenu(){
+			styleMenu('./css/menu-open.css');
+		}
+
+		function closeMenu(){
+			styleMenu('./css/menu-closed.css');
+		}
+
+		function toggleMenu(){
+			if (document.getElementById('menu').getAttribute('href') == './css/menu-closed.css'){
+				openMenu();
+			}
+			else {
+				closeMenu();
+			}
+		}
+
+		function menuOnResize() {
+			if(document.documentElement.clientWidth > 700){
+				styleMenu('./css/menu-closed.css');
+			}
+		}
+
+		window.addEventListener("resize", menuOnResize);
+	</script>
+</head>
+<body ontouchstart="">
+  <div id="container">
+
+		<div id="hamburger" class="hamburger" onclick="toggleMenu()">&#9776;</div>
+		<div id="menu" class="menu">
+			<div id="menu-aligner" class="menu-aligner">
+				<div id="index" class="menu-item" onclick="window.location.href='/'">Home</div>
+				<div id="research" class="menu-item" onclick="window.location.href=this.id+'.html'">Publications</div>
+				<div id="talks" class="menu-item" onclick="window.location.href=this.id+'.html'">Talks</div>
+				<div id="teaching" class="menu-item" onclick="window.location.href=this.id+'.html'">Teaching</div>
+				<div id="mentorship" class="menu-item" onclick="window.location.href=this.id+'.html'">Students & Postdocs</div>
+				<div id="links" class="menu-item" onclick="window.location.href=this.id+'.html'">Links</div>
+				<div id="artwork" class="menu-item" onclick="window.location.href=this.id+'.html'">Artwork</div>
+			</div>
+		</div>
+
+    <div id="content" onclick="closeMenu()">
+
+			<h2>Publications</h2>
+
+			<h3>Monographs</h3>
+
+			<ol>
+
+				<li><a href="http://www.springer.com/de/book/9783031113666" target="_blank"><i>Reverse Mathematics: Problems, Reductions, and Proofs.</i></a><br>
+					With <a href="http://m6c.org/" target="_blank">C. Mummert</a>.<br>
+					<a href="http://www.computability.de/series/" target="blank">Theory and Applications of Computability</a>, Springer, xix+490 pp., ISBN 978-3-031-11366-6 (2022).</li>
+
+					<li><a href="papers/milliken.pdf" target="blank">Milliken's tree theorem and its applications: a computability-theoretic perspective.</a><br>With <a href="https://choum.net/panglesd/" target="_blank">P.-E. Angl&egrave;s d'Auriac</a>, <a href="https://www3.nd.edu/~cholak/" target="_blank">P. A. Cholak</a>, <a href="https://www.lacl.fr/~benoit.monin/index.html" target="_blank">B. Monin</a>, and <a href="http://www.ludovicpatey.com" target="_blank">L. Patey</a>.<br>
+						<i>Memoirs of the American Mathematical Society</i>, vol. 293, no. 1457, vi+118 pp., ISBN 978-1-4704-6731-9 (2024).</li>
+
+			</ol>
+
+			<h3>Research articles</h3>
+
+			<ol>
+
+				<li>
+					<a href="papers/indivisibility.pdf" target="_blank">Effectiveness and strong graph indivisibility.</a><br>
+					With <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a> and <a href="#">Andrea Volpi</a>.<br>
+					Submitted.
+				</li>
+
+				<li>
+					<a href="papers/firstorderTT1.pdf" target="_blank">The tree pigeonhole principle in the Weihrauch degrees.</a><br>
+					With <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a> and <a href="https://manliovalenti.github.io" target="blank">Manlio Valenti</a>.<br>
+					Submitted.
+				</li>
+
+				<li>
+					<a href="papers/firstorder.pdf" target="_blank">On the first-order parts of problems in the Weihrauch degrees.</a><br>
+					With <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a> and <a href="https://researchmap.jp/read0145758/?lang=english" target="blank">Keita Yokoyama</a>.<br>
+					<i>Computability</i>, vol. 13, no. 3&ndash;4, pp. 363&ndash;375, 2024.
+				</li>
+
+				<li>
+					<a href="papers/ginsburgsands.pdf" target="_blank">The Ginsburg–Sands theorem and computability theory.</a><br>
+					With <a href="https://math.uconn.edu/person/heidi-benham/" target="blank">H. Benham</a>, <a href="https://adelapo.github.io" target="blank">A. DeLapo</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="https://javavillano.crd.co" target="blank">J. Villano</a>.<br>
+					<i>Advances in Mathematics</i>, vol. 444, 109618, 2024.
+				</li>
+
+				<li>
+					<a href="papers/reductiongames.pdf" target="_blank">Reduction games, provability, and compactness.</a><br>
+					With <a href="http://www.math.uchicago.edu/~drh/" target="_blank">D. R. Hirschfeldt</a> and <a href="https://mathematics.uchicago.edu/people/profile/sarah-reitzes/" target="_blank">S. C. Reitzes</a>.<br>
+					<i>Journal of Mathematical Logic</i>, vol. 22, no. 03, 2250009, 37 pp., 2022.
+				</li>
+
+				<li>
+					<a href="papers/dualRT.pdf" target="blank">Effectiveness for the dual Ramsey theorem.</a><br>With <a href="http://www.mathlogic.org/stephenflood/" target="_blank">S. Flood</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.personal.psu.edu/lzw299/" target="blank">L. B. Westrick</a>.<br>
+					<i>Notre Dame Journal of Formal Logic</i>, vol. 62, no. 3, pp. 455&ndash;490, 2021.
+				</li>
+
+				<li>
+					<a href="papers/Multiple.pdf" target="blank">COH, SRT^2_2, and multiple functionals.</a><br>With <a href="http://www.ludovicpatey.com" target="blank">L. Patey</a>.<br>
+					<i>Computability</i>, vol. 10, no. 2, pp. 111&ndash;121, 2021.
+				</li>
+
+				<li>
+					<a href="papers/SRT22vsCOH.pdf" target="blank">Some results concerning the SRT^2_2 vs. COH problem.</a><br>With <a href="https://www3.nd.edu/~cholak/" target="_blank">P. A. Cholak</a>, <a href="https://math.uchicago.edu/~drh/" target="_blank">D. R. Hirschfeldt</a>, and <a href="http://www.ludovicpatey.com" target="blank">L. Patey</a>.<br>
+					<i>Computability</i>, vol. 9, no. 3&ndash;4, pp. 193&ndash;217, 2020.
+				</li>
+
+				<li>
+					<a href="papers/products.pdf" target="blank">Ramsey's theorem and products in the Weihrauch degrees.</a><br>With <a href="http://www.math.uchicago.edu/~drh" target="_blank">D. R. Hirschfeldt</a>, <a href="https://www.math.wisc.edu/~jgoh" target="_blank">J. L. Goh</a>, <a href="http://www.ludovicpatey.com" target="_blank">L. Patey</a>, and <a href="http://www.cs.swan.ac.uk/~cspauly/" target="_blank">A. Pauly</a>.<br>
+					<i>Computability</i>, vol. 9, no. 2, pp. 85&ndash;100, 2020.
+				</li>
+
+				<li>
+					<a href="papers/BaireRM.pdf" target="blank">The determined property of Baire in reverse math.</a><br>With <a href="https://www.ericastor.info/index.html" target="_blank">E. P. Astor</a>, <a href="https://math.berkeley.edu/~antonio/" target="_blank">A. Montalb&aacute;n</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.personal.psu.edu/lzw299/" target="blank">L. B. Westrick</a>.<br>
+					<i>Journal of Symbolic Logic</i>, vol. 85, no. 1, pp. 166&ndash;198, 2020.
+				</li>
+
+				<li>
+					<a href="papers/HT2.pdf" target="blank">The reverse mathematics of Hindman's theorem for sums of exactly two elements.</a><br>With <a href="http://www.math.uwaterloo.ca/~csima/" target="_blank">B. F. Csima</a>, <a href="http://www.math.uchicago.edu/~drh" target="_blank">D. R. Hirschfeldt</a>, <a href="http://www.math.uiuc.edu/~jockusch/" target="_blank">C. G. Jockusch, Jr.</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.personal.psu.edu/lzw299/" target="blank">L. B. Westrick</a>.<br>
+					<i>Computability</i>, vol. 8, no. 3&ndash;4, pp. 253&ndash;263, 2020.
+				</li>
+
+				<li>
+					<a href="papers/strongjoins.pdf" target="blank">Joins in the strong Weihrauch degrees.</a><br>
+					<i>Mathematical Research Letters</i>, vol. 26, no. 3, pp. 749&ndash;767, 2019.
+				</li>
+
+				<li>
+					<a href="papers/reversesorites.pdf" target="blank">A note on the reverse mathematics of the sorites.</a><br>
+					<i>Review of Symbolic Logic</i>, vol. 12, no. 1, 30&ndash;36, 2019.
+				</li>
+
+				<li>
+					<a href="papers/primesUFD.pdf" target="blank">The complexity of primes in computable UFDs.</a><br>
+					With <a href="http://www.math.grinnell.edu/~miletijo/" target="_blank">J. R. Mileti</a>.<br>
+					<i>Notre Dame Journal of Formal Logic</i>, vol. 59, no. 2, pp. 139&ndash;156, 2018.
+				</li>
+
+				<li>
+					<a href="papers/coloringtrees.pdf" target="blank">Coloring trees in reverse mathematics.</a><br>With <a href="http://www.ludovicpatey.com" target="blank">L. Patey</a>.<br>
+					<i>Advances in Mathematics</i>, vol. 318, pp. 497&ndash;514, 2017.
+				</li>
+
+				<li>
+					<a href="papers/Hindman.pdf" target="blank">Effectiveness of Hindman's theorem for bounded sums.</a><br>With <a href="http://www.math.uiuc.edu/~jockusch/" target="_blank">C. G. Jockusch, Jr.</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.personal.psu.edu/lzw299/" target="blank">L. B. Westrick</a>.<br>
+					In A. Day, M. Fellows, N. Greenberg, B. Khoussainov, and A. Melnikov (editors), <i>Proceedings of the International Symposium on Computability and Complexity (in honour of Rod Downey's 60th birthday)</i>, Lecture Notes in Computer Science, Springer, pp. Springer-Verlag, 134&ndash;142, 2017.
+				</li>
+
+				<li>
+					<a href="papers/uniformADS.pdf" target="blank">The uniform content of partial and linear orders.</a><br>With <a href="https://www.ericastor.info/index.html" target="_blank">E. P. Astor</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.math.uconn.edu/~suggs" target="blank">J. Suggs</a>.<br>
+					<i>Annals of Pure and Applied Logic</i>, vol. 168, no. 6, pp. 1153&ndash;1171, 2017.
+				</li>
+
+				<li>
+					<a href="papers/robust.pdf" target="blank">Notions of robust information coding.</a><br>
+					With <a href="" target="_blank">G. Igusa</a>.<br>
+					<i>Computability</i>, vol. 6, no. 2, pp. 105&ndash;124, 2017.
+				</li>
+
+				<li>
+					<a href="papers/RT13andSRT22.pdf" target="blank">Ramsey's theorem for singletons and strong computable reducibility.</a><br>With <a href="http://www.ludovicpatey.com" target="blank">L. Patey</a>, <a href="http://www.math.uconn.edu/~solomon/" target="blank">R. Solomon</a>, and <a href="http://www.personal.psu.edu/lzw299/" target="blank">L. B. Westrick</a>.<br>
+					<i>Proceedings of the American Mathematical Society</i>, vol. 145, no. 3, pp. 1343&ndash;1355, 2017.
+				</li>
+
+				<li>
+					<a href="papers/combinatorialprinciples.pdf" target="_blank">Strong reductions between combinatorial principles.</a><br>
+					<i>Journal of Symbolic Logic</i>, vol. 81, no. 4, 1405&ndash;1431, 2016.
+				</li>
+
+				<li>
+					<a href="papers/ideals.pdf" target="_blank">Generics for Mathias forcing over general Turing ideals.</a><br>
+					With <a href="http://www.nd.edu/~cholak/" target="_blank">P. A. Cholak</a> and <a href="http://www.fmi.uni-sofia.bg/fmi/logic/msoskova/" target="_blank">M. I. Soskova</a>.<br>
+					<i>Israel Journal of Mathematics</i>, vol. 216, no. 2, 583&ndash;604, 2016.
+				</li>
+
+				<li>
+					<a href="papers/uniformreductions.pdf" target="blank">On uniform relationships between combinatorial problems.</a><br>
+					With <a href="https://math.dartmouth.edu/~dorais/" target="_blank">F. G. Dorais</a>, <a href="http://mathsci2.appstate.edu/~jlh/" target="_blank">J. L. Hirst</a>, <a href="http://www.math.grinnell.edu/~miletijo/" target="_blank">J. R. Mileti</a>, and <a href="https://cage.ugent.be/~pshafer/" target="_blank">P. Shafer</a>.<br>
+					<i>Transactions of the American Mathematical Society</i>, vol. 368, no. 2, 1321&ndash;1359, 2016.
+				</li>
+
+				<li>
+					<a href="papers/cohesiveavoidance.pdf" target="blank">Cohesive avoidance and strong reductions.</a><br>
+					<i>Proceedings of the American Mathematical Society</i>, vol. 143, no. 2, 869&ndash;876, 2015.
+				</li>
+
+				<li>
+					<a href="papers/genericity.pdf" target="blank">Genericity for computable Mathias forcing.</a><br>
+					With <a href="http://www.nd.edu/~cholak/" target="_blank">P. A. Cholak</a>, <a href="http://mathsci2.appstate.edu/~jlh/" target="_blank">J. L. Hirst</a>, and <a href="https://math.berkeley.edu/~slaman/" target="_blank">T. A. Slaman</a>.<br>
+					<i>Annals of Pure and Applied Logic</i>, vol. 165, no. 9 (Special Issue: CiE 2012), 1418&ndash;1428, 2014.
+				</li>
+
+				<li>
+					<a href="papers/nonjoining.pdf" target="blank">Limits to joining with generics and randoms.</a><br>
+					With <a href="http://homepages.ecs.vuw.ac.nz/~adam/" target="_blank">A. R. Day</a>.<br>
+					In R. Downey, J. Brendle, R. Goldblatt, and B. Kim (editors) <i>Proceedings of the 12th Asian Logic Conference</i>, World Scientific, 76&ndash;88, 2013.
+				</li>
+
+				<li>
+					<a href="papers/fip.pdf" target="blank">On the strength of the finite intersection principle.</a><br>
+					With <a href="http://m6c.org/" target="_blank">C. Mummert</a>.<br>
+					<i>Israel Journal of Mathematics</i>, vol. 196, no. 1, 345&ndash;361, 2013.
+				</li>
+
+				<li>
+					<a href="papers/ceorders.pdf" target="blank">Computably enumerable partial orders.</a><br>
+					With <a href="http://www.nd.edu/~cholak/" target="_blank">P. A. Cholak</a>, <a href="https://math.berkeley.edu/~schweber/" target="_blank">N. Schweber</a>, and <a href="http://www.math.cornell.edu/~shore/" target="_blank">R. A. Shore</a>.<br>
+					<i>Computability</i>, vol. 1, no. 2, 99&ndash;107, 2012.
+				</li>
+
+				<li>
+					<a href="papers/fcp.pdf" target="blank">Reverse mathematics and properties of finite character.</a><br>
+					With <a href="http://m6c.org/" target="_blank">C. Mummert</a>.<br>
+					<i>Annals of Pure and Applied Logic</i>, vol. 163, no. 9, 1243&ndash;1251, 2012.
+				</li>
+
+				<li>
+					<a href="papers/dissimilarity.pdf" target="blank">Equivalence of two ways of computing distances from dissimilarities for arbitrary sets of stimuli.</a><br>
+					With <a href="http://www.psych.purdue.edu/~ehtibar/" target="_blank">E. N. Dzhafarov</a>.<br>
+					<i>Journal of Mathematical Psychology</i>, vol. 55, no. 6, 469&ndash;472, 2011.
+				</li>
+
+				<li>
+					<a href="papers/orders.pdf" target="blank">Infinite saturated orders.</a><br>
+					<i>Order</i>, vol. 28, no. 2, 163&ndash;172, 2011.
+				</li>
+
+				<li>
+					<a href="papers/measure.pdf" target="blank">Stable Ramsey's theorem and measure.</a><br>
+					<i>Notre Dame Journal of Formal Logic</i>, vol. 52, no. 1, 95&ndash;112, 2011.
+				</li>
+
+				<li>
+					<a href="papers/pi01classes.pdf" target="blank">Pi^0_1 classes, Peano arithmetic, randomness, and computable domination.</a><br>
+					With <a href="http://diamondstone.me" target="_blank">D. E. Diamondstone</a> and <a href="http://people.cs.uchicago.edu/~soare/" target="_blank">R. I. Soare</a>.<br>
+					<i>Notre Dame Journal of Formal Logic</i>, vol. 51, no. 1 (50th Anniversary Issue), 127&ndash;159, 2010.
+				</li>
+
+				<li>
+					<a href="papers/polarizedTT.pdf" target="blank">Ramsey's theorem for trees: the polarized tree theorem and notions of stability.</a><br>
+					With <a href="http://sites.allegheny.edu/math/faculty/tamara-lakins/" target="_blank">T. J. Lakins</a> and <a href="http://mathsci2.appstate.edu/~jlh/" target="_blank">J. L. Hirst</a>.<br>
+					<i>Archive for Mathematical Logic</i>, vol. 49, no. 3, 399&ndash;415, 2010.
+				</li>
+
+				<li>
+					<a href="papers/sorites2.pdf" target="blank">Sorites without vagueness II: Comparative sorites.</a><br>
+					With <a href="http://www.psych.purdue.edu/~ehtibar/" target="_blank">E. N. Dzhafarov</a>.<br>
+					<i>Theoria</i>, vol. 76, no. 1, 25&ndash;53, 2010.
+				</li>
+
+				<li>
+					<a href="papers/sorites1.pdf" target="blank">Sorites without vagueness I: Classificatory sorites.</a><br>
+					With <a href="http://www.psych.purdue.edu/~ehtibar/" target="_blank">E. N. Dzhafarov</a>.<br>
+					<i>Theoria</i>, vol. 76, no. 1, 4&ndash;24, 2010.
+				</li>
+
+				<li>
+					<a href="papers/coneavoidance.pdf" target="blank">Ramsey's theorem and cone avoidance.</a><br>
+					With <a href="http://www.math.uiuc.edu/~jockusch/" target="_blank">C. G. Jockusch, Jr.</a><br>
+					<i>Journal of Symbolic Logic</i>, vol. 74, no. 2, 557&ndash;578, 2009.
+				</li>
+
+				<li>
+					<a href="papers/polarizedRT.pdf" target="blank">The polarized Ramsey's theorem.</a><br>
+					With <a href="http://mathsci2.appstate.edu/~jlh/" target="_blank">J. L. Hirst</a>.<br>
+					<i>Archive for Mathematical Logic</i>, vol. 48, no. 2, 141&ndash;157, 2009.
+				</li>
+
+				<li>
+					<a href="papers/finiteness.pdf" target="blank">Definitions of finiteness based on order properties.</a><br>
+					With <a href="https://sites.google.com/site/odelacruzcabrera/" target="_blank">O. De la Cruz</a> and <a href="http://h.web.umkc.edu/halle/" target="_blank">E. J. Hall</a>.<br>
+					<i>Fundamenta Mathematicae</i>, vol. 189, no. 2, 155&ndash;172, 2006.<br>
+				</li>
+
+			</ol>
+
+			<h3>Preliminary reports</h3>
+
+			<ol>
+
+				<li><a href="papers/genericity_CiE.pdf" target="blank">On Mathias generic sets.</a><br>
+				With <a href="http://www.nd.edu/~cholak/" target="_blank">P. A. Cholak</a> and <a href="http://mathsci2.appstate.edu/~jlh/" target="_blank">J. L. Hirst</a>.<br>
+				In S. B. Cooper, A. Dawar, and B. L&ouml;we (editors), <i>How the world computes: Turing centenary conference and 8th conference on computability in Europe CiE 2012 Cambridge, UK, June 18&ndash;23, 2012 proceedings</i>, Lecture Notes in Computer Science, vol. 7318, Springer, 129&ndash;138, 2012.</li>
+
+			</ol>
+
+			<h3>Reviews</h3>
+
+			<ol>
+
+				<li><a href="papers/soarereview.pdf" target="blank">Review of Robert I. Soare, <i>Turing Computability</i>, Theory and Applications of Computability, Springer-Verlag, Berlin Heidelberg, 2016.</a><br>
+				<i>Bulletin of Symbolic Logic</i>, vol. 23, no. 1, 113&ndash;115, 2017.</li>
+
+				<li><a href="http://www.maa.org/press/maa-reviews/handbook-of-the-history-of-logic-volume-6-sets-and-extensions-in-the-twentieth-century" target="blank">Review of Dov M. Gabbay, Akihiro Kanamori, and John Woods (editors), <i>Handbook of the History of Logic</i>, Volume 6: Sets and Extensions in the Twentieth Century, North-Holland, Amsterdam, 2012.</a><br>
+				<i>MAA Reviews</i>, January 15, 2013.</li>
+
+			</ol>
+
+			<h3>Book chapters</h3>
+
+			<ol>
+
+				<li><a href="papers/supervenience.pdf" target="blank">Classificatory sorites, probabilistic supervenience, and rule-making.</a><br>
+				With <a href="http://www.psych.purdue.edu/~ehtibar/" target="_blank">E. N. Dzhafarov</a>.<br>
+				In A. Abasnezhad and O. Bueno (editors), <i>On the Sorites Paradox</i>, Springer, to appear.</li>
+
+				<li><a href="papers/soriteschapter.pdf" target="blank">The sorites paradox: a behavioral approach.</a><br>
+				With <a href="http://www.psych.purdue.edu/~ehtibar/" target="_blank">E. N. Dzhafarov</a>.<br>
+				In L. Rudolph (editor), <i>Qualitative Mathematics for the Social Sciences, Mathematical Models for Research on Cultural Dynamics</i>, Routledge, 105&ndash;136, 2012.</li>
+
+			</ol>
+
+			<h3>Edited work</h3>
+
+			<ol>
+
+				<li><a href="https://content.iospress.com/journals/computability/9/3-4" target="_blank"><i>Computability: Special issue dedicated to the Dagstuhl Seminar on Measuring the Complexity of Computational Content: from Combinatorial Problems to Analysis</i></a>, vol. 9, no. 3&ndash;4, 2020.<br>
+				Editor, with <a href="http://theory.cca-net.de/vasco.php" target="_blank">V. Brattka</a>, <a href="https://users.dimi.uniud.it/~alberto.marcone/" target="_blank">A. Marcone</a>, and <a href="http://www.cs.swan.ac.uk/~cspauly/" target="_blank">A. Pauly</a>.</li>
+
+			</ol>
+
+			<h3>Other writings</h3>
+
+			<ol>
+
+				<li><a href="https://czechfulbright.blogspot.com/2021/11/damir-dzhafarov-computing-in-prague.html">Computing in Prague</a>, Fulbright Reality Czech Blog, 2021.</li>
+
+				<li><a href="papers/thesis.pdf" target="blank">Reverse mathematics of combinatorial principles.</a><br>Thesis, University of Chicago, 2011.</p>
+
+				<li><a href="papers/finitudes.pdf" target="blank">An infinitude of finitudes.</a><br>2005.</li>
+
+			</ol>
+
+			<h3>The Reverse Mathematics Zoo</h3>
+
+			<ol>
+
+				<li><a href="http://rmzoo.uconn.edu/" target="_blank">RM Zoo, v. 5.0.</a><br>
+				The RM Zoo is a program to help organize relations among various reverse mathematical principles, particularly those that fail to be equivalent to any of the big five subsystems of second-order arithmetic. Its goal is to make it easier to see known results and open questions, and thus hopefully to serve as a useful tool to researchers in the field.</li>
+
+			</ol>
+
+		</div>
+
+  </div>
+</body>
+</html>

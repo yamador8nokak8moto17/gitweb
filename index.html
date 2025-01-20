@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Damir D. Dzhafarov</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39759232-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-39759232-1');
+	</script>
+	<link id="main" rel="stylesheet" href="./css/main.css">
+	<link id="menu" rel="stylesheet" href="./css/menu-closed.css">
+	<script type="text/javascript">
+		function styleMenu(url) {
+			document.getElementById('menu').href = url;
+		}
+
+		function openMenu(){
+			styleMenu('./css/menu-open.css');
+		}
+
+		function closeMenu(){
+			styleMenu('./css/menu-closed.css');
+		}
+
+		function toggleMenu(){
+			if (document.getElementById('menu').getAttribute('href') == './css/menu-closed.css'){
+				openMenu();
+			}
+			else {
+				closeMenu();
+			}
+		}
+
+		function menuOnResize() {
+			if(document.documentElement.clientWidth > 700){
+				styleMenu('./css/menu-closed.css');
+			}
+		}
+
+		window.addEventListener("resize", menuOnResize);
+	</script>
+</head>
+<body ontouchstart="">
+  <div id="container">
+
+		<div id="hamburger" class="hamburger" onclick="toggleMenu()">&#9776;</div>
+		<div id="menu" class="menu">
+			<div id="menu-aligner" class="menu-aligner">
+				<div id="index" class="menu-item" onclick="window.location.href='/'">Home</div>
+				<div id="research" class="menu-item" onclick="window.location.href=this.id+'.html'">Publications</div>
+				<div id="talks" class="menu-item" onclick="window.location.href=this.id+'.html'">Talks</div>
+				<div id="teaching" class="menu-item" onclick="window.location.href=this.id+'.html'">Teaching</div>
+				<div id="mentorship" class="menu-item" onclick="window.location.href=this.id+'.html'">Students & Postdocs</div>
+				<div id="links" class="menu-item" onclick="window.location.href=this.id+'.html'">Links</div>
+				<div id="artwork" class="menu-item" onclick="window.location.href=this.id+'.html'">Artwork</div>
+			</div>
+		</div>
+
+    <div id="content" onclick="closeMenu()">
+
+			<img id="portrait_image" src="images/damir.jpg" alt="Photo of Damir Dzhafarov.">
+
+			<h1>
+			Damir D. Dzhafarov</h1>
+
+			<h2>
+			Associate Professor<br>
+			Department of Mathematics<br>
+			University of Connecticut
+			</h2>
+
+			<h3>Contact</h3>
+			<p>Office: MONT 441<br>
+			Tel: +1 860-486-3120<br>
+			Email: <a href="mailto:damir@math.uconn.edu">damir@math.uconn.edu</a></p>
+
+			<h3>Curriculum vitae</h3>
+
+			<p><a href="cv/CV.pdf" target="_blank">Download PDF.</a></p>
+
+			<h3>Affiliations</h3>
+
+			<p>I am a faculty member in the <a href="http://www.math.uconn.edu" target="_blank">Department of Mathematics</a>, and an affiliate faculty member in the <a href="http://www.philosophy.uconn.edu" target="_blank">Department of Philosophy</a>, at the <a href="http://www.uconn.edu" target="_blank">University of Connecticut</a>.</p>
+				
+			<p>Currently, I serve as <a href="https://math.uconn.edu/undergraduate/" target="_blank">Director of Undergraduate Studies</a> for mathematics.</p>
+
+			<p>I am Associate Director of the <a href="http://logic.uconn.edu" target="_blank">UConn Logic Group</a>, and a Director of the <a href="https://logic.uconn.edu/graduate-certificate-in-logic/">Graduate Certificate Program in Logic</a>. I am also member of the <a href="http://ibacs.uconn.edu" target="_blank">Connecticut Institute for the Brain and Cognitive Sciences</a>.</p>
+
+			<p>In the Fall of 2021, I was a <a href="https://www.cies.org/program/fulbright-us-scholar-program" target="_blank">Fulbright Research Scholar</a> at the <a href="https://www.ktiml.mff.cuni.cz/KTIML-1.html" target="_blank">Department of Theoretical Computer Science and Mathematical Logic</a> in the <a href="https://www.mff.cuni.cz/en" target="_blank">Faculty of Mathematics and Physics</a> at <a href="https://cuni.cz/UKEN-1.html" target="_blank">Charles University, Prague</a>.</p>
+			
+			<p>Previously, I was a <a href="https://beta.nsf.gov/funding/opportunities/mathematical-sciences-postdoctoral-research-fellowships-msprf" target="_blank">NSF Postdoctoral Fellow</a> in the mathematics departments at the <a href="https://math.berkeley.edu" target="_blank">University of California, Berkeley</a> and the <a href="https://math.nd.edu" target="_blank">University of Notre Dame</a>.</p>
+
+			<h3>Research</h3>
+
+			<a href="http://www.springer.com/de/book/9783031113666" target="_blank"><img id="book_image" src="images/rm_cover.jpg" alt="Cover of /Reverse Mathematics/ textbook."></a> <p>My book, <a href="http://www.springer.com/de/book/9783031113666" target="_blank"><i>Reverse Mathematics: Problems, Reductions, and Proofs</i></a>, written with Carl Mummert, has been published by Springer. It is available from booksellers and on Springer Link.</p>
+
+			<p>My research is in mathematical logic, specifically in computability theory, reverse mathematics, effective combinatorics, and computable analysis. I am also interested in the philosophy of mathematics, and the application of logic to cognitive science.</p>
+
+			<p>My work is currently supported by <a href="http://ccfrg.computability.org">FRG Collaborative Research Grant: "Compuability-Theoretic Aspects of Combinatorics" (DMS 1854355)</a> from the <a href="https://nsf.gov" target="_blank">National Science Foundation</a> of the United States.</p>
+
+			<h3>Professional Activities</h3>
+
+			<p>I am an editor of the <a href="https://www.cambridge.org/core/journals/journal-of-symbolic-logic"><i>Journal of Symbolic Logic</i></a>, handling papers in all areas of pure and applied computability theory.</p>
+
+			<p>I serve on the steering committee for the <a href="http://wct.math.uconn.edu/" target="_blank">Workshop on Computability Theory</a>, and co-organize the <a href="http://ctaseminar.computability.org/" target="_blank">Computability Theory and Applications Online Seminar</a>.
+
+			<p>I maintain <a href="http://www.computability.org" target="_blank">computability.org</a>, an online resource for computability theorists.</p>
+
+			<p>I am the faculty advisor for <a href="https://ams.math.uconn.edu" target="_blank">UConn's AMS Graduate Student Chapter</a>.</p>
+
+    </div>
+
+  </div>
+</body>
+</html>
