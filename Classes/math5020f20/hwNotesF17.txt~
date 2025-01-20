@@ -1,0 +1,53 @@
+
+**************************************************************************************
+	******* NOTES ON PROBLEMS ON ENUMERATIVE COMBINATORICS *******
+		      ******* SPRING 2017 ******* 
+**************************************************************************************
+ 
+
+PROBLEMS ASSIGNED:
+
+<p> <b>Problem Set 1 (due 1 October 2020)</b> Turn in your "best" four problems from 
+1.4 (i.e., Chapter 1, Problem 4 (page 104)), 1.5, 
+1.7, 1.12, 1.17, 1.29, 1.33, 
+A1, A2, A3. 
+There is a 50% penalty on Problem 1.12 for using induction,
+recurrences, generating functions, summations, finite differences,
+etc. Problem 1.33(b) seems a little more difficult than a
+typical [2+] problem so has a weight w(2++)=4. There is a 20%
+penalty for solving 1.33(b) using linear
+algebra.</p>
+
+<p> <b>Problem Set 2 (due 8 March 2017)</b> Turn in your "best" four problems from
+1.38, 1.44, 1.53, 1.54 (answer should not involve summations), 1.84, 1.87, A6, A8, A10, A11.
+</p>
+
+<p> <b>Problem Set 3 (due 3 April 2017)</b> Turn in your "best" four problems from
+1.47(a,b)[counts as one problem], 1.108(b), 1.113, 1.132, 1.138, 2.25, 2.26,
+A4, A7. </p>
+
+<p> Problem Set 4 (due 1 May 2017) Turn in your "best" three problems from
+A9, A17, A30, A31, A32, A33.
+</p>
+
+******* NOTES ON INDIVDUAL PROBLEMS *******
+
+All of the following problems are ones without solutions from the text or "Additional Problems", marked with an A.  
+
+1.4   [2] * Show formula which is product of two generating functions;   
+1.5   [2] * Show formula for MV-OGF of \sum min(n_i) \prod (x_i)^n_i. 
+1.7   [2] * Find a simple formula for alternating convolution of binomial coefficients with f(n) whose EGF is exp(x+x^2/2)
+1.12  [2+]* Draw all chords connecting n generic points around a circle; how many regions? 
+      	    (50% penalty on Problem 1.12 for using induction, recurrences, GF, summations, finite  differences, etc.)      	   
+1.17a [1+]* Prove that ((n \mchoose m)) = ((m+1 \mchoose n-1))   
+1.17b [2-]* Give a combinatorial proof. 
+1.29  [2] * Show that \sum a_1...a_k over all k-comp. of n = (n+k-1 \choose 2k-1) 
+1.33a [2-]* Find #sequences (\eset, S_1,...,S_k) where S_i & S_i+1 differ by cover in Boolean_n.    
+1.33b [2+]* If S_k =\set, show number is (1/2^n) \sum (n\choose i) (n-2i)^k
+A1, A2, A3. 
+There is a 50% penalty on Problem 1.12 for using induction,
+recurrences, generating functions, summations, finite differences,
+etc. Problem 1.33(b) seems a little more difficult than a
+typical [2+] problem so has a weight w(2++)=4. There is a 20%
+penalty for solving 1.33(b) using linear
+algebra.</p>
